@@ -1,6 +1,42 @@
+/* ALL PAGES */
+
 body {
     background-color: lavender;
 }
+
+footer {
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    margin-top: 200px;
+    background-color: grey;
+    bottom: 0;
+}
+
+/* INDEX/HOME */
+
+#welcome, #hi {
+    color: black;
+    text-align: center;
+}
+
+#welcome {
+    font-size: 40px;
+}
+
+#hi {
+    font-size: small;
+}
+
+#selfie {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    margin: 100px, 50px, 200px, 100px
+}
+
+/* ABOUT */
+
 .main {
     overflow: auto;
     padding-bottom: 100px;
@@ -13,22 +49,7 @@ body {
     padding: 10px;
 }
 
-#selfie {
-    height: 400px;
-    width: 300px;
-    padding: 20px;
-    margin: 100px, 50px, 200px, 100px
-}
-#welcome, #hi {
-    color: black;
-    text-align: center;
-}
-#welcome {
-    font-size: 40px;
-}
-#hi {
-    font-size: small;
-}
+/* PORTFOLIO */
 
 #xfiles, #twinpeaks, #joan, #deb {
     height: 300px;
@@ -37,15 +58,6 @@ body {
     object-fit: cover;
     background-color: white;
     padding: 30px;
-}
-
-footer {
-    height: 25px;
-    width: 100%;
-    position: absolute;
-    margin-top: 200px;
-    background-color: grey;
-    bottom: 0;
 }
 
 #contact {
