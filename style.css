@@ -11,7 +11,12 @@ p {
     font-family: ;
 }
 
-#xfiles, #twinpeaks {
+#xfiles, #twinpeaks, #joan, #deb {
     height: 300px;
     width: 250px;
+    float: left;
+}
+
+footer {
+    background-color: grey;
 }
