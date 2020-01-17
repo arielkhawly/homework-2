@@ -20,8 +20,14 @@ footer {
     text-align: center;
 }
 
+.col-md-6 {
+    background-color: white;
+}
+
 #welcome {
     font-size: 40px;
+    border-bottom: 5px grey;
+    padding-bottom: 5px;
 }
 
 #hi {
@@ -41,12 +47,20 @@ footer {
     overflow: auto;
     padding-bottom: 100px;
 }
+#abt {
+    text-align: center;
+}
+#me {
+    height: 250px;
+    width: 200px;
+}
 .info, .about {
-    background-color: white;
+    background-color: white ; 
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    padding: 10px;
+    margin-bottom: 50px;
+    padding: 30px;
 }
 
 /* PORTFOLIO */
