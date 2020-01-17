@@ -7,9 +7,10 @@
 
 #selfie {
     margin-left: 20px;
-    height: fit-content;
+    height: 400px;
+    width: 300px;
 }
-h1 {
+#hi {
     font-size: 25px;
     color: black
 }
@@ -31,4 +32,8 @@ footer {
     margin-top: 200px;
     clear: both;
     background-color: grey;
+}
+
+#contact {
+    text-align: center;
 }
