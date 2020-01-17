@@ -24,14 +24,17 @@ p {
     height: 300px;
     width: 250px;
     float: left;
+    object-fit: cover;
 }
 
 footer {
-    position: relative;
+    position: absolute;
     height: 25px;
+    width: 100%;
     margin-top: 200px;
     clear: both;
     background-color: grey;
+    bottom: 0;
 }
 
 #contact {
