@@ -10,3 +10,8 @@ h1 {
 p {
     font-family: ;
 }
+
+#xfiles, #twinpeaks {
+    height: 300px;
+    width: 250px;
+}
